@@ -1,0 +1,22 @@
+{
+  "model": "gpt-4",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Você é um assistente útil e amigável."
+    },
+    {
+      "role": "user",
+      "content": "Olá, me ajude a criar um JSON para usar na API da OpenAI."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro! Aqui está um exemplo de JSON que você pode usar..."
+    },
+    {
+      "role": "user",
+      "content": "Perfeito! Quero que ele considere todas as mensagens anteriores."
+    }
+  ],
+  "stream": true
+}
